@@ -13,7 +13,10 @@
 
     </head>
     <body class="antialiased">
-        <div class="flex">
+
+        {{-- Esto lo que hace es asignar la variable $seacrh ya con un argumento en este caso emanuel --}}
+        @livewire('user-list-two',['search' =>'Emanuel'])
+        {{-- <div class="flex">
             <div class="w-2/4">
                 @livewire('user-list')
             </div>
@@ -21,6 +24,6 @@
             <div class="w-2/4">
                 @livewire('register-form')
             </div>
-        </div>
+        </div> --}}
     </body>
 </html>
